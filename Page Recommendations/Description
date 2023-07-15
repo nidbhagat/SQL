@@ -1,1 +1,2 @@
-
+A page recommendation system for a social media website: 
+- Should recommend a page to user_id if the page is liked by at least one friend of user_id and is not liked by user_id.
