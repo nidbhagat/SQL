@@ -1,2 +1,10 @@
-A page recommendation system for a social media website: 
-- Should recommend a page to user_id if the page is liked by at least one friend of user_id and is not liked by user_id.
+Introduction
+A page recommendation system for a social media website. Should recommend a page to user_id if the page is liked by at least one friend of user_id and is not liked by user_id.
+
+Usage Case
+For various platforms, especially those with a large amount of content and needed a target audience based on their interests, behaviours, and preferences in different categories.
+Such as:
+1. Social Media Feeds like Instagram, Twitter
+2. E-commerce Recommendations like H&M, Amazon
+3. Video Streaming Services like Netflix, Amazon Prime
+
