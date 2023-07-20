@@ -9,6 +9,12 @@ Such as:
 3. Video Streaming Services like Netflix, Amazon Prime
 
 
+APPROACH:
+1. Using CTE created a list of user-friend pairs with UNION to avoid duplication and to get a bidirectional friendship.
+2. Then, join the temporary set table with the likes table (return pages liked by the friends).
+3. Again using left join to filter out the pages liked by the friends which are already liked by the user.
+
+
 In real scenarios, Machine learning algorithms, collaborative filtering, and content-based filtering are common techniques used in building recommendation 
 systems to deliver more accurate and personalized suggestions.
 
