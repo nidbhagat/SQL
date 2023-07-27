@@ -13,7 +13,6 @@ def func(integers, names, numbers):
   '''
   map_result, filter_result, reduce_result = None, None, None
 
-  # Your code stars here
   integers = [int(num) for num in input("in1:").split(" ")]
   names = input("in2:").split(" ")
   numbers = [int(num) for num in input("in3:").split(" ")]
@@ -21,8 +20,6 @@ def func(integers, names, numbers):
   map_result = list(map(lambda x: x ** 2, integers))
   filter_result = list(filter(lambda x: len(x) <= 7, names))
   reduce_result = reduce(lambda x, y: x * y, numbers)
-
-  # Your code ends here
 
   return map_result, filter_result, reduce_result
 
